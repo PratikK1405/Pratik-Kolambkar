@@ -5,12 +5,13 @@ from django.conf.urls.static import static
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Welcome to the Portfolio API.")
+    return HttpResponse("Welcome to the Portfolio API. Visit /api/ for API endpoints or /admin/ for admin panel.")
 
 urlpatterns = [
-    # path('', home, name='home'),
+    path('', home, name='home'),
     path('admin/', admin.site.urls),
-    path('', include('core.urls')),  # Uncomment if you have core/urls.py
+    path('', include('core.urls')),
+    path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
 
 if settings.DEBUG:
