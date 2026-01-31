@@ -1,59 +1,61 @@
-# Django Core
-Django==4.2.7
-djangorestframework==3.14.0
-
-# CORS handling for React
-django-cors-headers==4.3.0
-
-# Image processing
-# Pillow==10.2.0
-
-# Rich text editor
-django-ckeditor==6.7.0
-
-# Automatic cleanup of old files
-django-cleanup==8.0.0
-
-# Environment variables management
-python-decouple==3.8
-
-# Database (PostgreSQL support - optional)
-# psycopg2-binary==2.9.9
-
-# Timezone support
-pytz==2023.3
-
-# Security
-django-environ==0.11.2
-
-# API documentation (optional but recommended)
-drf-yasg==1.21.7
-
-# Filtering for API
-django-filter==23.5
-
-# WSGI server for production
-gunicorn==21.2.0
-
-# Static files management for production
-whitenoise==6.6.0
-
-# Email backend (optional)
-django-anymail==10.2
-
-# Celery for async tasks (optional)
+﻿amqp==5.3.1
+asgiref==3.11.0
+billiard==4.2.4
+black==23.12.1
 celery==5.3.4
-redis==5.0.1
-
-# Development tools
+certifi==2026.1.4
+cffi==2.0.0
+charset-normalizer==3.4.4
+click==8.3.1
+click-didyoumean==0.3.1
+click-plugins==1.1.1.2
+click-repl==0.3.0
+colorama==0.4.6
+cryptography==46.0.4
+Django==4.2.7
+django-anymail==10.2
+django-ckeditor==6.7.0
+django-cleanup==8.0.0
+django-cors-headers==4.3.0
 django-debug-toolbar==4.2.0
-
-# Testing
+django-environ==0.11.2
+django-filter==23.5
+django-js-asset==3.1.2
+djangorestframework==3.14.0
+drf-yasg==1.21.7
+factory-boy==3.3.0
+Faker==40.1.2
+flake8==6.1.0
+gunicorn==21.2.0
+idna==3.11
+inflection==0.5.1
+iniconfig==2.3.0
+isort==5.13.2
+kombu==5.6.2
+mccabe==0.7.0
+mypy_extensions==1.1.0
+packaging==26.0
+pathspec==1.0.4
+pillow==12.1.0
+platformdirs==4.5.1
+pluggy==1.6.0
+prompt_toolkit==3.0.52
+pycodestyle==2.11.1
+pycparser==3.0
+pyflakes==3.1.0
 pytest==7.4.3
 pytest-django==4.7.0
-factory-boy==3.3.0
-
-# Code quality
-flake8==6.1.0
-black==23.12.1
-isort==5.13.2
+python-dateutil==2.9.0.post0
+python-decouple==3.8
+pytz==2023.3
+PyYAML==6.0.3
+redis==5.0.1
+requests==2.32.5
+six==1.17.0
+sqlparse==0.5.5
+tzdata==2025.3
+uritemplate==4.2.0
+urllib3==2.6.3
+vine==5.1.0
+wcwidth==0.5.0
+whitenoise==6.6.0
